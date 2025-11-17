@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <title>HackVault - Ethical Hacking Lab</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <header>
+    <h1>HACKVAULT</h1>
+    <div class="typewriter">A Legal Hacking Playground</div>
+  </header>
+
+  <main>
+    <div class="service-card"><h2>Login Service</h2><p>Vulnerable to SQL Injection</p><button data-action="login">Exploit</button></div>
+    <div class="service-card"><h2>File Service</h2><p>Directory Traversal</p><button data-action="file">Explore</button></div>
+    <div class="service-card"><h2>API Service</h2><p>No Rate Limit (DoS)</p><button data-action="api">Overload</button></div>
+    <div class="service-card"><h2>Admin Service</h2><p>Broken JWT</p><button data-action="admin">Crack JWT</button></div>
+    <div class="service-card"><h2>Secret Service</h2><p>Hidden Flag: 1000 pts</p><button data-action="secret">Reveal</button></div>
+  </main>
+
+  <div id="terminal">[SYSTEM] Booting HackVault...</div>
+
+  <div id="leaderboard">
+    <h3>Live Leaderboard</h3>
+    <ol id="leaderList"><li><span>Anonymous</span><span>0 pts</span></li></ol>
+  </div>
+
+  <footer>© 2025 HackVault | Built by Jaskaran Arora</footer>
+
+  <script src="app.js"></script>
+</body>
+</html>
